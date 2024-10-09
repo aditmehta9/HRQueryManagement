@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // or ES6
+    "module": "CommonJS", // or ESNext if using modules
+    "jsx": "react", // If you are using React
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], // Adjust according to your project structure
+}

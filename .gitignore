@@ -1,0 +1,11 @@
+# Ignore node_modules folder
+node_modules/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+
+# Cache files
+cache/
