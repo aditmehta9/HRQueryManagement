@@ -86,6 +86,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Post
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/7f40547e-75a4-41ab-97a2-14a375309537">
 
+- Compliance Charts:
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/8a8d2cbb-2182-428d-a5fe-6a77bf3898b4">
+
+
 
 
 
