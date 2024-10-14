@@ -80,6 +80,24 @@ app.post('/api/resources', async (req, res) => {
     res.status(201).json({ id: newResource._id, sequentialId: newResource.sequentialId, description: newResource.description });
 });
 
+// Define HR metrics endpoint
+app.get('/api/hr-metrics', async (req, res) => {
+    const hrMetrics = {
+        hrQueries: {
+            solved: 10,
+            pending: 5,
+            escalated: 2
+        },
+        complianceMetrics: {
+            completedTasks: 7,
+            pendingTasks: 3
+        }
+    };
+    res.json(hrMetrics);
+});
+
+
+
 // Update a resource
 app.put('/api/resources/:id', async (req, res) => {
     const id = req.params.id;
